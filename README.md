@@ -10,6 +10,7 @@ Do test preparation courses actually help?
 Is there a performance gap between male and female students?
 Does parental education have any effect on scores?
 Are math, reading, and writing scores strongly correlated?
+
 📊 Dataset Summary
 Rows: 1000 students
 Columns:
@@ -19,11 +20,14 @@ PARENT'S EDUCATION
 LUNCH (standard vs. free/reduced)
 TEST PREP (completed or none)
 MATH SCORE, READING SCORE, WRITING SCORE
+
 🛠️ Tools & Libraries Used
 Python
 Pandas & NumPy – Data manipulation
 Matplotlib & Seaborn – Data visualization
 Jupyter Notebook – Interactive analysis
+
+
 📌 Major Insights
 💡 Test prep takers scored significantly higher across all subjects.
 👩‍🎓 Female students outperformed males in Reading and Writing.
@@ -32,13 +36,16 @@ Jupyter Notebook – Interactive analysis
 🔁 Strong correlation between Reading and Writing scores (~0.95).
 🧮 Around 39.7% students were low scorers in at least one subject.
 🎯 Group E students performed best in all three subjects.
+
 📌 Visuals Included
 Histograms (Score distribution)
 Pie Charts (Gender & Test Prep stats)
 Bar Charts (Score comparisons by gender, test prep, education)
 Heatmap (Correlation between subjects)
+
 📁 Project Structure
 ├── student_performance_analysis.ipynb   # Main notebook with all analysis
 ├── README.md                            # This file
+
 🧾 Conclusion
 This project showed how preparation, family background, and gender can play a role in academic performance. It’s a solid starting point for deeper educational analytics — and was a great exercise in real-world data exploration.
